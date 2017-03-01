@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo</title>
+  <link rel="stylesheet" href="/assets/semantic/semantic.min.css">
+  <link rel="stylesheet" href="/assets/costumeCss/main.css">
+</head>
+<body>
+	<div class="ui fixed inverted menu">
+		<a href="/">Accueil</a>
+	</div>
+
+<div class="ui main container">
+  <% if (locals.error) { %>
+    <div class="ui negative message">
+      <%= error %>
+    </div>
+  <% } %>
